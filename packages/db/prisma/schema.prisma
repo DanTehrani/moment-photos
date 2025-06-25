@@ -1,0 +1,101 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id String @id
+
+  notificationToken String?
+
+  name              String?
+  email             String? @unique
+  profilePictureUrl String?
+
+  defaultPrompt String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  albums   UserAlbum[]
+  AppEvent AppEvent[]
+}
+
+model Image {
+  id String @id @default(uuid())
+
+  originalImageUrl String
+  editedImageUrl   String?
+
+  width  Int
+  height Int
+
+  instructions String?
+  paused       Boolean @default(false)
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  userId String
+
+  Album   Album?  @relation(fields: [albumId], references: [id])
+  albumId String?
+}
+
+enum UserAlbumRole {
+  ADMIN
+  EDITOR
+  VIEWER
+}
+
+model UserAlbum {
+  id String @id @default(uuid())
+
+  role    UserAlbumRole @default(ADMIN)
+  userId  String
+  albumId String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  User  User  @relation(fields: [userId], references: [id])
+  Album Album @relation(fields: [albumId], references: [id])
+
+  @@unique([userId, albumId])
+}
+
+model Album {
+  id String @id @default(uuid())
+
+  name         String
+  sharableLink String?
+
+  thumbnailImageId String?
+  images           Image[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  users UserAlbum[]
+}
+
+model AppEvent {
+  id String @id @default(uuid())
+
+  userId String?
+  User   User?   @relation(fields: [userId], references: [id])
+
+  properties Json
+  timestamp  DateTime @default(now())
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

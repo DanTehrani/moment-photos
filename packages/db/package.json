@@ -1,0 +1,25 @@
+{
+  "name": "@moment/db",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./out/index.js",
+  "types": "out/index.d.ts",
+  "type": "module",
+  "files": [
+    "out"
+  ],
+  "description": "",
+  "scripts": {
+    "build": "tsc -d",
+    "db:generate": "dotenv -e ../../.env -- pnpm exec prisma generate",
+    "migrate:dev": "dotenv -e ../../.env -- prisma migrate dev",
+    "migrate:prod": "dotenv -e ../../.env -- pnpm exec prisma migrate deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prisma": "5.12.1",
+    "@prisma/client": "5.12.1"
+  }
+}

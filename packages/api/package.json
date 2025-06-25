@@ -1,0 +1,49 @@
+{
+  "name": "@moment/api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./out/index.js",
+  "types": "out/index.d.ts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "dotenv -e ../../.env -- tsx ./src/index",
+    "start:watch": "dotenv -e ../../.env -- tsx --watch ./src/index",
+    "build": "tsc -d",
+    "build:watch": "tsc -d --watch",
+    "lint": "eslint . & tsc --noEmit",
+    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org moment --project moment-api ./out && sentry-cli sourcemaps upload --org moment --project moment-api ./out"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@moment/db": "workspace:*",
+    "@sentry/cli": "^2.32.1",
+    "@sentry/node": "^8.47.0",
+    "@supabase/supabase-js": "^2.50.0",
+    "@trpc/server": "^11.0.0-rc.439",
+    "@types/node": "^20.11.17",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "elevenlabs": "^1.59.0",
+    "express": "^5.1.0",
+    "firebase": "^11.7.3",
+    "firebase-admin": "^13.4.0",
+    "google-auth-library": "^9.15.1",
+    "googleapis": "^148.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "node-cache": "^5.1.2",
+    "openai": "^4.98.0",
+    "sharp": "^0.34.1",
+    "stripe": "^18.2.1",
+    "tsx": "^4.7.1",
+    "viem": "^2.17.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/jsonwebtoken": "^9.0.7",
+    "trpc-ui": "^1.0.15"
+  }
+}

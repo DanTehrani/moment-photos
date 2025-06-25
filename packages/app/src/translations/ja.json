@@ -1,0 +1,158 @@
+{
+  "Account": {
+    "areYouSureYouWantToSignOut": "ログアウトしますか？",
+    "cancel": "キャンセル",
+    "increaseLimit": "上限を増やす",
+    "signOut": "ログアウト",
+    "title": "アカウント",
+    "uploadLimit": "アップロード上限",
+    "uploaded": "アップロード済み"
+  },
+  "AddToAlbumSheet": {
+    "cancel": "キャンセル",
+    "noAlbumsFound": "アルバムが見つかりません",
+    "title": "アルバムに追加"
+  },
+  "AdjustPromptSheet": {
+    "confirm": "確定",
+    "funny": "面白く",
+    "grandly": "壮大に",
+    "instruction": "指示",
+    "title": "指示"
+  },
+  "Advanced": {
+    "title": "詳細設定"
+  },
+  "Album": {
+    "addImages": "写真を追加",
+    "copiedShareableLink": "共有リンクをコピーしました",
+    "noPhotosFound": "写真が見つかりません",
+    "share": "共有",
+    "title": "アルバム",
+    "uploading": "アップロード中"
+  },
+  "AlbumImageFullScreen": {
+    "again": "もう一度",
+    "delete": "削除",
+    "more": "その他",
+    "removeFromAlbum": "アルバムから削除",
+    "save": "保存",
+    "setAsThumbnail": "サムネイルに設定",
+    "thumbnailSet": "サムネイルを設定しました"
+  },
+  "AlbumSettings": {
+    "albumDeleted": "アルバムを削除しました",
+    "albumName": "アルバム名",
+    "albumNameUpdated": "アルバム名を更新しました",
+    "deleteAlbum": "アルバムを削除",
+    "deleteFailed": "アルバムの削除に失敗しました",
+    "enterAlbumName": "アルバム名を入力",
+    "save": "保存",
+    "updateFailed": "アルバム名の更新に失敗しました"
+  },
+  "Albums": {
+    "createAlbum": "アルバムを作成",
+    "noAlbumsFound": "アルバムが見つかりません",
+    "title": "アルバム"
+  },
+  "CreateAlbum": {
+    "albumName": "アルバム名",
+    "next": "次へ",
+    "title": "アルバムを作成"
+  },
+  "Dev": {
+    "clearStorage": "ストレージをクリア",
+    "reloadApp": "アプリを再読み込み"
+  },
+  "EditHaikuSheet": {
+    "confirm": "確定"
+  },
+  "Home": {
+    "createAgain": "もう一度",
+    "haikuYourImage": "写真で一句",
+    "instruction": "指示",
+    "uploadImage": "画像をアップロード"
+  },
+  "ImageFullScreen": {
+    "addToAlbum": "アルバムに追加",
+    "again": "もう一度",
+    "delete": "削除",
+    "more": "その他",
+    "save": "保存"
+  },
+  "Images": {
+    "addImages": "写真を追加",
+    "noPhotosFound": "写真が見つかりません",
+    "title": "写真で一句"
+  },
+  "InstructionsSheet": {
+    "generateAgain": "もう一度生成",
+    "instructions": "指示（任意）"
+  },
+  "JoinAlbum": {
+    "joinAlbum": "アルバムに参加",
+    "title": "アルバムに参加",
+    "youHaveBeenInvitedToJoin": "{{albumName}}に招待されました"
+  },
+  "LimitInfoSheet": {
+    "deleteImage": "削除",
+    "deleteImageDescription": "写真を削除してもアップロード数の上限はリセットされません。",
+    "title": "写真を削除しますか？"
+  },
+  "NewPost": {
+    "createAgain": "もう一度",
+    "haikuYourImage": "写真で一句",
+    "instruction": "指示",
+    "post": "投稿",
+    "uploadImage": "写真を選択"
+  },
+  "PurchaseCredits": {
+    "purchase": "購入",
+    "purchaseFailed": "購入に失敗しました",
+    "title": "アップロード枠を購入",
+    "uploads": "アップロード"
+  },
+  "SelectImages": {
+    "clearSelections": "選択をクリア",
+    "createAlbum": "アルバムを作成",
+    "noPhotosFound": "写真が見つかりません",
+    "title": "写真を選択"
+  },
+  "SelectLanguage": {
+    "language": "言語",
+    "title": "言語を選択"
+  },
+  "Settings": {
+    "advanced": "詳細設定",
+    "language": "言語",
+    "title": "設定"
+  },
+  "SignIn": {
+    "continueWithGoogle": "Googleで続ける",
+    "continueWithApple": "Appleで続ける",
+    "continueWithUsername": "ユーザー名で続ける"
+  },
+  "SignInEmail": {
+    "back": "戻る",
+    "error": "エラー",
+    "invalidCredentials": "メールアドレスまたはパスワードが無効です",
+    "password": "パスワード",
+    "signIn": "サインイン",
+    "username": "ユーザー名"
+  },
+  "TapToUpdateButton": {
+    "newVersion": "新しいバージョン"
+  },
+  "UploadLimitBottomSheet": {
+    "increaseLimit": "上限を増やす",
+    "uploadLimitReached": "アップロード上限に達しました",
+    "youHaveReachedYourLimit": "{{limit}}アップロードの上限に達しました。"
+  },
+  "common": {
+    "back": "戻る"
+  },
+  "useDownloadImage": {
+    "permissionDenied": "権限がありません",
+    "pleaseGoToSettingsAndGrantPermissionToSaveImages": "設定アプリから権限を付与してください。"
+  }
+}

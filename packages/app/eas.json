@@ -1,0 +1,79 @@
+{
+  "cli": {
+    "version": ">= 12.6.2",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "simulator": {
+      "ios": {
+        "simulator": true
+      },
+      "android": {
+        "buildType": "apk",
+        "image": "latest"
+      },
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_RPC_URL": "https://moment-api-crur.onrender.com/trpc",
+        "APP_VARIANT": "development"
+      }
+    },
+    "development": {
+      "android": {
+        "buildType": "apk",
+        "image": "latest"
+      },
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_RPC_URL": "https://moment-api-crur.onrender.com/trpc",
+        "APP_VARIANT": "development"
+      }
+    },
+    "test": {
+      "ios": {
+        "simulator": true
+      },
+      "android": {
+        "buildType": "apk",
+        "image": "latest"
+      },
+      "distribution": "internal",
+      "channel": "test",
+      "env": {
+        "EXPO_PUBLIC_RPC_URL": "https://moment-api-crur.onrender.com/trpc",
+        "APP_VARIANT": "development"
+      }
+    },
+    "staging": {
+      "channel": "staging",
+      "autoIncrement": true,
+      "distribution": "internal",
+      "android": {
+        "resourceClass": "large"
+      },
+      "env": {
+        "EXPO_PUBLIC_RPC_URL": "https://moment-api-crur.onrender.com/trpc",
+        "APP_VARIANT": "staging"
+      }
+    },
+    "production": {
+      "channel": "production",
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_RPC_URL": "https://moment-api-crur.onrender.com/trpc",
+        "APP_VARIANT": "production"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "dan00300@icloud.com",
+        "ascAppId": "6739418817",
+        "appleTeamId": "D7H78Z8FX2"
+      }
+    }
+  }
+}

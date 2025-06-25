@@ -1,0 +1,158 @@
+{
+  "Account": {
+    "areYouSureYouWantToSignOut": "Are you sure you want to sign out?",
+    "cancel": "Cancel",
+    "increaseLimit": "Increase Limit",
+    "signOut": "Sign Out",
+    "title": "Account",
+    "uploadLimit": "Upload Limit",
+    "uploaded": "Uploaded"
+  },
+  "AddToAlbumSheet": {
+    "cancel": "Cancel",
+    "noAlbumsFound": "No albums found",
+    "title": "Add to Album"
+  },
+  "AdjustPromptSheet": {
+    "confirm": "Confirm",
+    "funny": "Funny",
+    "grandly": "Grandly",
+    "instruction": "Instruction",
+    "title": "Adjust prompt"
+  },
+  "Advanced": {
+    "title": "Advanced"
+  },
+  "Album": {
+    "addImages": "Add Images",
+    "copiedShareableLink": "Copied shareable link",
+    "noPhotosFound": "No photos found",
+    "share": "Share",
+    "title": "Album",
+    "uploading": "Uploading"
+  },
+  "AlbumImageFullScreen": {
+    "again": "Again",
+    "delete": "Delete",
+    "more": "More",
+    "removeFromAlbum": "Remove from Album",
+    "save": "Save",
+    "setAsThumbnail": "Set as Thumbnail",
+    "thumbnailSet": "Thumbnail set"
+  },
+  "AlbumSettings": {
+    "albumDeleted": "Album deleted",
+    "albumName": "Album Name",
+    "albumNameUpdated": "Album name updated",
+    "deleteAlbum": "Delete album",
+    "deleteFailed": "Failed to delete album",
+    "enterAlbumName": "Enter album name",
+    "save": "Save",
+    "updateFailed": "Failed to update album name"
+  },
+  "Albums": {
+    "createAlbum": "Create Album",
+    "noAlbumsFound": "No albums found",
+    "title": "Albums"
+  },
+  "CreateAlbum": {
+    "albumName": "Album Name",
+    "next": "Next",
+    "title": "Create Album"
+  },
+  "Dev": {
+    "clearStorage": "Clear Async Storage",
+    "reloadApp": "Reload app"
+  },
+  "EditHaikuSheet": {
+    "confirm": "Confirm"
+  },
+  "Home": {
+    "createAgain": "Again",
+    "haikuYourImage": "Haiku your image",
+    "instruction": "Instruct",
+    "uploadImage": "Upload image"
+  },
+  "ImageFullScreen": {
+    "addToAlbum": "Add to Album",
+    "again": "Again",
+    "delete": "Delete",
+    "more": "More",
+    "save": "Save"
+  },
+  "Images": {
+    "addImages": "Add Images",
+    "noPhotosFound": "No photos found",
+    "title": "Haiku your photo"
+  },
+  "InstructionsSheet": {
+    "generateAgain": "Generate Again",
+    "instructions": "Instructions"
+  },
+  "JoinAlbum": {
+    "joinAlbum": "Join Album",
+    "title": "Join Album",
+    "youHaveBeenInvitedToJoin": "You have been invited to join {{albumName}}"
+  },
+  "LimitInfoSheet": {
+    "deleteImage": "Delete",
+    "deleteImageDescription": "Deleting images does NOT reset your upload limit. ",
+    "title": "Delete image?"
+  },
+  "NewPost": {
+    "createAgain": "Again",
+    "haikuYourImage": "Haiku your image",
+    "instruction": "Instruct",
+    "post": "Post",
+    "uploadImage": "Upload image"
+  },
+  "PurchaseCredits": {
+    "purchase": "Purchase",
+    "purchaseFailed": "Purchase failed",
+    "title": "Purchase uploads",
+    "uploads": "Uploads"
+  },
+  "SelectImages": {
+    "clearSelections": "Clear selections",
+    "createAlbum": "Create Album",
+    "noPhotosFound": "No photos found",
+    "title": "Select Images"
+  },
+  "SelectLanguage": {
+    "language": "Language",
+    "title": "Select Language"
+  },
+  "Settings": {
+    "advanced": "Advanced",
+    "language": "Language",
+    "title": "Settings"
+  },
+  "SignIn": {
+    "continueWithGoogle": "Continue with Google",
+    "continueWithApple": "Continue with Apple",
+    "continueWithUsername": "Continue with username"
+  },
+  "SignInEmail": {
+    "back": "Back",
+    "error": "Error",
+    "invalidCredentials": "Invalid email or password",
+    "password": "Password",
+    "signIn": "Sign In",
+    "username": "Username"
+  },
+  "TapToUpdateButton": {
+    "newVersion": "New version available"
+  },
+  "UploadLimitBottomSheet": {
+    "increaseLimit": "Increase limit",
+    "uploadLimitReached": "Upload limit reached",
+    "youHaveReachedYourLimit": "You have reached your limit of {{limit}} uploads."
+  },
+  "common": {
+    "back": "Back"
+  },
+  "useDownloadImage": {
+    "permissionDenied": "Permission denied",
+    "pleaseGoToSettingsAndGrantPermissionToSaveImages": "Please go to settings and grant permission to save images."
+  }
+}
